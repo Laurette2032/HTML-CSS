@@ -1,0 +1,60 @@
+img{
+    width: 200px;
+    height: 100px;
+}
+#banniere{
+    height:200px; 
+    width:800px;
+}
+.maclasse{
+    text-align: center;
+}
+
+body {
+    background-image:radial-gradient(at center top, #CCDAE0, #EDF2F4);
+}
+
+header {
+    text-align:center;
+}
+
+h1{
+    color: #EF233C;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:impact;
+}
+
+h3{
+    color:#2B2D42;
+    font-size:x-large;
+    font-weight: bold;
+    text-decoration: underline dashed;
+}
+
+article{
+    border:solid 1px black;
+    padding: 10px;
+}
+
+
+footer{
+    text-align:right;
+
+}
+
+li{
+    list-style: none;
+}
+
+.a:visited{
+    color:grey;
+} 
+
+.a:link{
+    color:#D90429; 
+}
+
+span {
+    color: red;
+}
