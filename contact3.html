@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+  
+   <link rel="stylesheet" href="CSSCONTACTINDEX.css">
+    </head>
+
+<title>contact</title>
+
+<header>
+    <div>
+      <img id="banniere"src="https://i.picsum.photos/id/432/800/200.jpg?hmac=m91iX58v9mKrxlXJQeSnUwHdCZRAq384d2JQAiJCZvk" alt= "image"><br>
+      
+      <h1>un gros titre</h1><br>
+
+      <nav class= "nav">
+        <ul>
+            <li><a href="index4.0.html">Accueil</a></li>
+            <li><a href="#article2">blog</a></li>
+            <li><a href="Gallerie">Gallerie</a></li>
+            <li><a href="contact3.html">Contact</a></li>
+        </ul>
+      </nav> 
+    </div>
+</header>
+    
+<body>   
+
+    <section>
+        
+    <form method="POST"action="monProgramme.php">
+            
+    <fieldset>
+        <legend>Merci de remplir une des cases</legend>
+        
+        <div>
+            <label for ="nom"> nom:<span>*</span> </label> <input type="text" name= "nom"placeholder = "nom"minlength ="2"maxlength ="20"/><br>
+        </div>
+
+        <div>
+            <label for ="mail"> mail:<span>*</span> </label> <input type="email" name= "email"placeholder = "email"/><br>
+        </div>
+    
+        <div>
+            <label for="commentaire">commentaire:</label><br>
+            <textarea placeholder= "la zone de commentaire" rows="10" cols="70"></textarea><br>
+        </div>
+
+        <div>
+            <input checked type="checkbox" id="checkbox"/><label for="checkbox">Envoi d'une copie</label> 
+            <br/>
+        </div>
+
+        <div>
+            <input type="submit" value="Envoyer"/><br>
+            <input type="reset" value="Recommencer"/><br>
+        </div>
+    </fieldset>
+
+    </section>
+</body>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.lemonde.fr/">lien 1</a></li>
+            <li><a href="https://www.monde-diplomatique.fr/">lien 2</a></li>
+        </ul>
+
+    </footer>
+</html>
